@@ -24,7 +24,7 @@ setup(
     install_requires=["click"],
     entry_points={
         "console_scripts": [
-            "py-trie=pytrie.__main__:main",
+            "pytrie=pytrie.__main__:main",
         ]
     },
 )

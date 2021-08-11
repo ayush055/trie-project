@@ -25,7 +25,7 @@ There are several test cases that can be found in the `test.py` file located in 
 To run all the test cases with the trie, run:
 
 ```
-py-trie test
+pytrie test
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ There are 5 basic commands that can be executed using Py-Trie:
 To get a list of all possible commands, run:
 
 ```
-py-trie --help
+pytrie --help
 ```
 
 ### Insert
@@ -48,7 +48,7 @@ py-trie --help
 To insert a word:
 
 ```
-py-trie insert [WORD]
+pytrie insert [WORD]
 ```
 
 ### Remove
@@ -56,7 +56,7 @@ py-trie insert [WORD]
 To remove a word:
 
 ```
-py-trie remove [WORD]
+pytrie remove [WORD]
 ```
 
 ### Search
@@ -64,7 +64,7 @@ py-trie remove [WORD]
 To search a word:
 
 ```
-py-trie search [WORD]
+pytrie search [WORD]
 ```
 
 ### Autocomplete
@@ -72,7 +72,7 @@ py-trie search [WORD]
 To generate a list of matching words based on a prefix:
 
 ```
-py-trie autocomplete [PREFIX]
+pytrie autocomplete [PREFIX]
 ```
 
 ### Display
@@ -80,5 +80,5 @@ py-trie autocomplete [PREFIX]
 To display all existing words in the trie:
 
 ```
-py-trie display
+pytrie display
 ```

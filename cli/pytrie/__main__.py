@@ -1,8 +1,8 @@
 import sys
 import click
 import requests
-import test as trie_test
 import unittest
+from tests import test as trie_test
 
 SERVER = "https://trie-container-xuuikixata-uc.a.run.app/"
 
@@ -23,7 +23,6 @@ def send_request(word, method, request_type):
     elif request_type == 'GET':
         response = requests.get(api, params=data)
     click.echo(response.text)
-    click.echo(response.status_code)
     return
 
 @click.group()
