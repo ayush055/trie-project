@@ -18,6 +18,8 @@ To install Py-Trie, run the following command:
 pip install py-trie
 ```
 
+### Troubleshooting
+
 **Note:** When running commands with py-trie, if you receive errors saying that pytrie is not found, try running the following commands:
 
 ```
