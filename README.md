@@ -18,6 +18,15 @@ To install Py-Trie, run the following command:
 pip install py-trie
 ```
 
+**Note:** When running commands with py-trie, if you receive errors saying that pytrie is not found, try running the following commands:
+
+```
+pip uninstall py-trie
+python -m pip install py-trie
+```
+
+Ensure that when running commands, use `pytrie [COMMAND]`, not `py-trie [COMMAND]`
+
 ## Testing Suite
 
 There are several test cases that can be found in the `test.py` file located in the `cli/pytrie` folder. These tests execute the commands listed in the Usage section. Some tests also simulate multiple users sending requests to the server by running processes on different threads.
